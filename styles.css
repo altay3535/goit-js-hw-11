@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -35,8 +39,6 @@ body {
   border: 1px solid #808080;
   border-radius: 6px;
   outline: none;
-
-  color: #2E2F42;
   padding-left: 16px;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -48,9 +50,8 @@ body {
   border-color: #000000;
 }
 
-#search-input:active {
-  border-color: #4E75FF;
-  border: 1px solid;
+#search-input:focus {
+  border: 1px solid #4E75FF;
 }
 
 #search-input::placeholder {
@@ -58,7 +59,7 @@ body {
   color: #808080;
   font-weight: 300;
   letter-spacing: 0.04em;
-  border-radius: 10px;
+
 }
 
 .search-container button {
