@@ -60,7 +60,7 @@ body {
   border-radius: 10px;
 }
 
-#search-button {
+.search-container button {
   width: 91px;
   height: 40px;
   
@@ -77,7 +77,7 @@ body {
 
 }
 
-#search-button:hover {
+.search-container button:hover {
   background-color: #6C8CFF;
 }
 
