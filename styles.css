@@ -18,11 +18,11 @@ body {
 /* Loader'ı gizlemek için kullanacağımız yardımcı sınıf */
 .is-hidden {
   display: none;
+  box-sizing: border-box;
 }
 
 .search-container {
   display: flex;
-  flex-direction: row;
   gap: 8px;
   margin-top: 36px;
   align-items: center;
@@ -31,9 +31,10 @@ body {
 
 #search-input {
   width: 272px;
-  max-height: 40px;
+  height: 40px;
   border: 1px solid #808080;
   border-radius: 6px;
+  outline: none;
 
   color: #2E2F42;
   padding-left: 16px;
