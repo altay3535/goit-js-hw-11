@@ -1,7 +1,7 @@
 {
   "name": "goit-js-hw-11",
-  "version": "0.0.0",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.0.10"
+    "vite": "^5.0.0"
   },
   "dependencies": {
-    "izitoast": "^1.4.0",
-    "simplelightbox": "^2.14.3"
+    "simplelightbox": "^2.14.3",
+    "izitoast": "^1.4.0"
   }
 }
